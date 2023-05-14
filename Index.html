@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+        <title>Haley's Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    </head>
+
+    <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+
+    <body>
+
+       <!-- ~~~~~~~~~~ Header and Nav ~~~~~~~~~~ -->
+
+        <header class="navigation">
+            <div class="inline-block logo">
+                <img src="Images/LOGO.png" 
+                alt="Haley Hetrick's Logo" 
+                height="100px">
+                </img>
+            </div>
+            <nav class="inline-block">
+                <ul>
+                    <li class="inline-block">About Me</li>
+                    <li><a href="#section1" class="inline-block">My Work</a></li>
+                    <li><a href="#section2" class="inline-block">My Skills</a></li>
+                    <li class="inline-block">Contact Me</li>
+                    <li class="inline-block">Resume</li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- ~~~~~~~~~~ Case Study Intro ~~~~~~~~~~ -->
+
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+              <h1 class="display-4">I CARE: a UX Case Study</h1>
+              <p class="lead">As the internet evolves, having a strong online presence and an intuitive UI is becoming increasingly important to remain relevant. My role as a UX Designer and Researcher was to refresh the UI of the 501(c)(3) organization I CARE to help it reach more volunteers to achieve its mission of helping low-income seniors get rides to the places they need to go. </p>
+            </div>
+          </div>
+
+        <!-- ~~~~~~~~~~ Jump to Section ~~~~~~~~~~ -->
+
+          <ul class="list-group list-group-horizontal">
+            <li id="takeMeTo" class="list-group-item">Take me to...</li>
+            <li class="list-group-item">Context</li>
+            <li class="list-group-item">Research</li>
+            <li class="list-group-item">Findings</li>
+            <li class="list-group-item">Designs</li>
+            <li class="list-group-item">Final Product</li>
+            <li class="list-group-item">Next Steps</li>
+          </ul>
+
+        <!-- ~~~~~~~~~~ Context ~~~~~~~~~~ -->
+
+        <div class="sectionHeader">
+            <div class="caseStudyBreak"></div>
+            <h2>Context</h2>
+        </div>
+       
+        <div class="container">
+            <div class="row">
+              <div class="col">
+                <img src="Images/I CARE Thumbnail Cover.svg" 
+                alt="Thumbnail of final redesign" 
+                class="img-fluid">
+                </img>
+              </div>
+              <div class="col">
+                <h4>The Problem</h4>
+                <p>People interested in helping seniors within their community struggle to understand how to volunteer with I CARE due to a lack of information about responsibilities, requirements, and scheduling.</p>
+                <h4>The Hypothesis</h4>
+                <p>In reviewing the I CARE organization's website, we believe that (1) providing clear and accessible information via intuitive information architecture and (2) designing a volunteer portal will enable users to understand volunteer requirements and successfully participate in the program.</p>
+              </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h4>The User</h4>
+                    <p>To best understand our user, we came up with Jenn, our proto-persona, as a woman of the "sandwich generation" who is well accustomed to caring for others and feels a deep sense of responsibility when it comes to caring for the older generation and giving back to her local community.</p>
+                </div>
+                <div class="col">
+                    <img src="Images/Jenn Proto Persona.svg" 
+                    alt="Jenn proto persona" 
+                    class="img-fluid">
+                    </img>
+                </div>
+              </div>
+        </div>
+
+        <!-- ~~~~~~~~~~ Research ~~~~~~~~~~ -->
+
+        <div class="sectionHeader">
+            <div class="caseStudyBreak"></div>
+            <h2>Research</h2>
+        </div>
+       
+        <div class="container">
+            <div class="row">
+                <p>We started by interviewing people to find out their interests, motivators, and pain points when it comes to volunteering.</p>
+            </div>
+            <div class="row">
+                <img src="Images/Group 6 - I CARE - AFFINITY DIAGRAM.jpg" 
+                alt="a matrix of sticky notes arranged and grouped thematically based off of interview feedback" 
+                width="100%">
+                </img>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <img src="Images/Group 6 - I CARE - Copy of EMPATHY MAP.jpg" 
+                    alt="Jenn's empathy map" 
+                    width="550px">
+                    </img>
+                </div>
+                <div class="col">
+                    <h4>Empathy Map</h4>
+                    <p>Having connected with a number of potential volunteers, we found we understood our user better.</p>
+                    <p>   - She SAYS she wants to make a lasting impact on her community.</p>
+                    <p>   - She THINKS volunteering is a worthwhile activity.</p>
+                    <p>   - She FEELS connected to others through volunteering and wants to make meaningful relationships.</p>
+                    <p>   - She WANTS to volunteer locally.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h4>The User</h4>
+                    <p>To best understand our user, we came up with Jenn, our proto-persona, as a woman of the "sandwich generation" who is well accustomed to caring for others and feels a deep sense of responsibility when it comes to caring for the older generation and giving back to her local community.</p>
+                </div>
+                <div class="col">
+                    <img src="Images/competitor analysis.png" 
+                    alt="competitor analysis" 
+                    class="img-fluid">
+                    </img>
+                </div>
+            </div>
+        </div>
+
+        <!-- ~~~~~~~~~~ Findings ~~~~~~~~~~ -->
+
+        <div class="sectionHeader">
+            <div class="caseStudyBreak"></div>
+            <h2>Findings</h2>
+        </div>
+       
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h4>Insight</h4>
+                    <p>From interviewing potential volunteers, we learned that volunteers have a desire to make a positive impact in their community but may face barriers participating with the I CARE organization due to unclear volunteer requirements, missing vehicle specifications, and no insight into the process of scheduling a shift.</p>
+                </div>
+                <div class="col">
+                    <h4>Value</h4>
+                    <p>Operating as a 501c non-profit organization, I CARE offers safe and reliable transportation services to senior citizens and gives interested volunteers the opportunity to make a meaningful difference in their community.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h4>User Scenario</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <img src="Images/Group 6 - I CARE - USER SCENARIO.jpg" 
+                    alt="user scenario" 
+                    class="img-fluid">
+                    </img>
+                </div>
+            </div>
+        </div>
+
+        <!-- ~~~~~~~~~~ Designs ~~~~~~~~~~ -->
+
+        <div class="sectionHeader">
+            <div class="caseStudyBreak"></div>
+            <h2>Designs</h2>
+        </div>
+
+        <div class="sectionHeader">
+            <h3>Sketches</h3>
+        </div>
+       
+        <div class="container">
+            <div class="row">
+                <h4>Desktop</h4>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <img src="Images/Me - Sketch 3.jpg" 
+                    alt="user scenario" 
+                    class="img-fluid">
+                    </img>
+                </div>
+                <div class="col">
+                    <img src="Images/Me - Sketch 4.jpg" 
+                    alt="user scenario" 
+                    class="img-fluid">
+                    </img>
+                </div>
+                <div class="col">
+                    <img src="Images/Me - Sketch 7.jpg" 
+                    alt="user scenario" 
+                    class="img-fluid">
+                    </img>
+                </div>
+                <div class="col">
+                    <img src="Images/Me - Sketch 9.jpg" 
+                    alt="user scenario" 
+                    class="img-fluid">
+                    </img>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <img src="Images/Sketch 1.jpg" 
+                    alt="user scenario" 
+                    class="img-fluid">
+                    </img>
+                </div>
+                <div class="col">
+                    <img src="Images/Sketch 2.jpg" 
+                    alt="user scenario" 
+                    class="img-fluid">
+                    </img>
+                </div>
+                <div class="col">
+                </div>
+                <div class="col">
+                </div>
+            </div>
+            <div class="row">
+                <h4>Mobile</h4>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <img src="Images/Mobile - Sketch 10.jpg" 
+                    alt="user scenario" 
+                    class="img-fluid">
+                    </img>
+                </div>
+                <div class="col">
+                    <img src="Images/Mobile - Sketch 11.jpg" 
+                    alt="user scenario" 
+                    class="img-fluid">
+                </div>
+                <div class="col">
+                </div>
+                <div class="col">
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="sectionHeader">
+                <h3>Mid-Fidelity Prototype</h3>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <img src="Images/MF - Volunteer Login - Haley.png" 
+                    alt="user scenario" 
+                    class="img-fluid">
+                </div>
+                <div class="col">
+                    <img src="Images/MF - Volunteer Portal - Haley.png" 
+                    alt="user scenario" 
+                    class="img-fluid">
+                </div>
+                <div class="col">
+                    <img src="Images/MF - Rider Homepage - Sign Up (Sara).png" 
+                    alt="user scenario" 
+                    class="img-fluid">
+                </div>
+                <div class="col">
+                    <img src="Images/MF - Wireframe_ I CARE _Donate.png" 
+                    alt="user scenario" 
+                    class="img-fluid">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <img src="Images/MF - Wireframe_ I CARE Home.png" 
+                    alt="user scenario" 
+                    class="img-fluid">
+                </div>
+                <div class="col">
+                    <img src="Images/MF - Wireframe_ I CARE Home_OP 2.png" 
+                    alt="user scenario" 
+                    class="img-fluid">
+                </div>
+                <div class="col">
+                </div>
+                <div class="col">
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="sectionHeader">
+                <h3>Usability Feedback</h3>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <img src="Images/Usability.svg" 
+                    alt="user scenario" 
+                    class="img-fluid">
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="sectionHeader">
+                <h3>High-Fidelity Prototype</h3>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <img src="Images/FINAL_I CARE Home.svg" 
+                    alt="user scenario" 
+                    class="img-fluid">
+                    </img>
+                </div>
+                <div class="col">
+                    <img src="Images/FINAL_Volunteer Portal_HF - Haley.svg" 
+                    alt="user scenario" 
+                    class="img-fluid">
+                    </img>
+                </div>
+                <div class="col">
+                    <img src="Images/FINAL_Volunteer Schedule View_HF - Haley.png" 
+                    alt="user scenario" 
+                    class="img-fluid">
+                    </img>
+                </div>
+                <div class="col">
+                    <img src="Images/FINAL_Volunteer - Information.svg" 
+                    alt="user scenario" 
+                    class="img-fluid">
+                    </img>
+                </div>
+            </div>
+        </div>
+
+        <!-- ~~~~~~~~~~ Next Steps ~~~~~~~~~~ -->
+
+        <div class="sectionHeader">
+            <div class="caseStudyBreak"></div>
+            <h2>Next Steps</h2>
+        </div>
+       
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h4>Next Steps</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur. Commodo enim in pretium eget nisl neque faucibus feugiat. In ultricies ornare mi nulla mi sit consectetur. Nisl habitasse cras feugiat quis neque laoreet nullam. Egestas pellentesque odio ultrices dolor pharetra tortor sem urna.</p>
+                </div>
+                <div class="col">
+                    <h4>Next Steps</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur. Sed mattis pharetra fermentum iaculis convallis ut adipiscing cras lectus. Tincidunt sagittis id elementum sed velit magnis arcu.</p>
+                </div>
+                <div class="col">
+                    <h4>Next Steps</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur. Fermentum placerat sit cursus ante commodo ut. Id nisl ipsum elit gravida fusce lacus mauris amet ornare. Augue est ultricies nibh metus nunc ut tempor morbi.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- bs columns to snag
+            <div class="row">
+                <div class="col">
+                    <h4>TEXT</h4>
+                    <p>TEXT</p>
+                </div>
+                <div class="col">
+                    <img src="Images/Jenn Proto Persona.svg" 
+                    alt="Jenn proto persona" 
+                    width="550px">
+                    </img>
+                </div>
+            </div>
+        -->
+
+
+        <!--/* ~~~~~~~~~~~~~~~~~~~ Footer Section ~~~~~~~~~~~~~~~~~~~ */-->
+
+        <div class="footerWhiteSpace"></div>
+
+        <footer class="top">
+            <ul class="alignRight">
+                <li class="inline-block">Contact Me</li>
+                <li class="inline-block">LinkedIn</li>
+                <li class="inline-block">Resume</li>
+                <li><a href="#" class="inline-block">SCROLL UP</a></li>
+            </ul>
+        </footer>
+
+<!-- ~~~~~~~~~~ Bootstrap and jQuery links ~~~~~~~~~~ -->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+    </body>
+
+    <script src="guide.js"></script>
+</html>
